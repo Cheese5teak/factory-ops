@@ -1,0 +1,29 @@
+﻿<h4>Search Work Order</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="ShowSearchResults" method="get">
+
+            <div class="form-group">
+                
+                <label for="PartNumber" class="control-label">Part Number</label>
+                <input name="PartNumber" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label for="Status" class="control-label">Status</label>
+                <input name="Status" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Search" class="btn btn-primary" />
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
