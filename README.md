@@ -76,6 +76,8 @@ dotnet ef database update
 ### Running the Application
 dotnet run
 
+---
+
 ### Future Modernization Path
 FactoryOps is designed to support:
 
